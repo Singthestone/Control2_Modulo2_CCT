@@ -1,12 +1,15 @@
 // Colores
-$color-babyBlue: #adc6d4;
-$color-marineBlue: #4a92ba;
-$color-darkBlue: #366b89;
+$color-orange:#F2624A;
+$color-antique: #FFE6D1;
+$color-egg:#F8F6EE;
+$color-grey:#C4C4C4;
+// Colores base
+$color-black: #000000;
 $color-white: #ffffff;
-// Tamaños botón
-$border-radius: convertir(10);
-$padding-btn: convertir(15) convertir(20);
-// Tamaños título y texto
-$width-text: convertir(596);
-$line-height_text: convertir(18);
-$margin-title: convertir(20);
+// Colores con nombres de referencia a utilidades
+$color-btn: $color-orange;
+$color-main_top: $color-antique;
+$color-main_bot: $color-egg;
+// Tamaños
+$size-titulos-logo: convertir(36);
+$size-nav: convertir(18);

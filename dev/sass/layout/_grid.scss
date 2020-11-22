@@ -1,0 +1,66 @@
+/* ******************************** */
+
+
+/* ******************************** */
+
+
+/* GRID */
+
+
+/* ******************************** */
+
+
+/* ******************************** */
+
+
+/* ******************************** */
+
+//-Estructura general de la página
+%grid_body {
+    display: grid;
+    grid-template: {
+        columns: 50px 1fr 50px;
+        rows: 80px repeat(3 1fr) 365px;
+    }
+    ;
+}
+
+//-Estructura del header
+.header {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+//- Estructuras internas del main
+%grid_sect1 {
+    display: grid;
+    grid-template: {
+        columns: 5vw 1fr 0.8fr 5vw;
+    }
+    ;
+}
+
+%grid_sect2 {
+    display: grid;
+    grid-template: {
+        columns: repeat(3, 1fr);
+        rows: 1fr 1fr;
+    }
+}
+
+%grid_sect3 {
+    display: grid;
+    grid-template: {
+        columns: 5vw 0.5fr 1fr 5vw;
+    }
+    ;
+}
+
+//-Estructura del footer
+%grid_footer {
+    display: grid;
+    grid-template: {
+        columns: 5vw repeat(4 0.5fr) 1fr 5vw;
+    }
+    ;
+}

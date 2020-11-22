@@ -3,6 +3,8 @@ html(lang="en")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="css/reset.css")
+        link(rel="stylesheet", href="css/main.css")
         title Control2_Modulo2
     body
         div#container
@@ -11,15 +13,16 @@ html(lang="en")
                 include header.pug
 
             //-MAIN
-            //- Primera parte
-            main.main__top
-                include main_bot.pug
-            //- Segunda parte
-            main.main__mid
-                include main_mid.pug
-            //- Tercera parte
-            main.main__bot
-                include main_bot.pug
+            main.main
+                //- Primera parte
+                section.sect__top
+                    include sect_top.pug
+                //- Segunda parte
+                section.sect__mid
+                    include sect_mid.pug
+                //- Tercera parte
+                section.sect__bot
+                    include sect_bot.pug
                 
 
             //-FOOTER

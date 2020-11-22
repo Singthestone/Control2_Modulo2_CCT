@@ -1,0 +1,37 @@
+/* ******************************** */
+
+
+/* ******************************** */
+
+
+/* SECTION-1 */
+
+
+/* ******************************** */
+
+
+/* ******************************** */
+
+
+/* ******************************** */
+
+.sect__top {
+    height: convertir(581);
+    width: 100vw;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    background-color: $color-antique;
+    @extend %grid_sect1;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    &__boton {
+        align-self: start;
+    }
+    &__img {
+        grid-column: 3/4;
+        object-fit: contain;
+    }
+}

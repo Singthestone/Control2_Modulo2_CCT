@@ -1,0 +1,34 @@
+/* ******************************** */
+
+
+/* ******************************** */
+
+
+/* SECTION-3 */
+
+
+/* ******************************** */
+
+
+/* ******************************** */
+
+
+/* ******************************** */
+
+.sect__bot {
+    height: convertir(581);
+    grid-column: 1/4;
+    grid-row: 4/5;
+    @extend %grid_sect3;
+    background-color: $color-egg;
+}
+
+img {
+    grid-column: 2/3;
+}
+
+p {
+    grid-column: 3/4;
+    padding: 0 convertir(10);
+    align-self: center;
+}

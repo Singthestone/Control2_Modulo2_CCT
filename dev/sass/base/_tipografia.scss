@@ -15,19 +15,28 @@
 
 /* ******************************** */
 
-// Tipografía Base
+// Tipografía Base y variables tipográficas
 $font_fz-base: convertir(16);
-$font: 'Arial',
-'Arial Black';
+$font: 'Arial';
+$font_fz-h1: convertir(36);
+$font_fz-h4: convertir(18);
+$font_fz-footer: $font_fz-h4;
+// Tipo de la página
 html {
-    font-size: $font_fz-base;
-    font-family: nth($font, 1), sans-serif;
-    font-style: normal;
+    font-family: $font;
 }
 
-// Párrafo
-$font_fz-text: $font_fz-base;
-// Navegador
-$font_fz-nav: convertir(24);
-// Botón
-$font_fz-btn: $font_fz-base;
+h1 {
+    font-size: $font_fz-h1;
+}
+
+h4 {
+    font-size: $font_fz-h4;
+}
+
+.footer {
+    ul {
+        font-size: $font_fz-footer;
+        font-weight: bold;
+    }
+}

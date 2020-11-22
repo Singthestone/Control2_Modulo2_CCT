@@ -1,0 +1,49 @@
+/* ******************************** */
+
+
+/* ******************************** */
+
+
+/* FOOTER */
+
+
+/* ******************************** */
+
+
+/* ******************************** */
+
+
+/* ******************************** */
+
+//- estilos para footer con display grid
+.footer {
+    grid-column: 1/4;
+    grid-row: 5/6;
+    background-color: $color-grey;
+    @extend %grid_footer;
+    &__comunidad {
+        grid-column: 3/4;
+        padding: convertir(10) 0;
+    }
+    &__contactar {
+        grid-column: 4/5;
+        padding: convertir(10) 0;
+    }
+    &__copy {
+        grid-column: 1/8;
+        align-self: center;
+        justify-self: center;
+    }
+    &__empresa {
+        grid-column: 2/3;
+        padding: convertir(10) 0;
+    }
+    &__input {
+        grid-column: 6/7;
+        padding: convertir(10) 0;
+    }
+    &__redes {
+        grid-column: 5/6;
+        padding: convertir(10) 0;
+    }
+}
